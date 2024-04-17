@@ -140,16 +140,16 @@ public class Converter {
             case 1:
                 System.out.print("Введіть byte: ");
                 byte byteValue = scanner.nextByte();
-                System.out.println("Converted to Int: " + converter.convertToInt(byteValue));
-                System.out.println("Converted to Double: " + converter.convertToDouble(byteValue));
-                System.out.println("Converted to String: " + converter.convertToString(byteValue));
+                System.out.println("Конвертовано в Int: " + converter.convertToInt(byteValue));
+                System.out.println("Конвертовано в Double: " + converter.convertToDouble(byteValue));
+                System.out.println("Конвертовано в String: " + converter.convertToString(byteValue));
                 break;
             case 2:
                 System.out.print("Введіть short: ");
                 short shortValue = scanner.nextShort();
-                System.out.println("Converted to Int: " + converter.convertToInt(shortValue));
-                System.out.println("Converted to Double: " + converter.convertToDouble(shortValue));
-                System.out.println("Converted to String: " + converter.convertToString(shortValue));
+                System.out.println("Конвертовано в Int: " + converter.convertToInt(shortValue));
+                System.out.println("Конвертовано в Double: " + converter.convertToDouble(shortValue));
+                System.out.println("Конвертовано в String: " + converter.convertToString(shortValue));
                 break;
             case 3:
                 System.out.print("Введіть int: ");
